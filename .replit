@@ -1,0 +1,1 @@
+run = "qmake -project -o main.pro && echo \"QT += gui widgets\" >> main.pro && qmake main.pro && make && ./main; rm CMakeLists.txt main main.o main.pro Makefile moc_* ui_*"
