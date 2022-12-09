@@ -6,25 +6,25 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>300</width>
+    <height>225</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>HelloQt</string>
+   <string>Hello Qt</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>280</x>
-      <y>40</y>
-      <width>171</width>
-      <height>121</height>
+      <x>0</x>
+      <y>0</y>
+      <width>300</width>
+      <height>100</height>
      </rect>
     </property>
     <property name="text">
-     <string/>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;h1 align=&quot;center&quot;&gt;Welcome to Hello Qt&lt;/h1&gt;&lt;p align=&quot;center&quot;&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Enter your name below and press &amp;quot;Say Hello&amp;quot;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
@@ -33,11 +33,14 @@
    <widget class="QLineEdit" name="lineEdit">
     <property name="geometry">
      <rect>
-      <x>280</x>
-      <y>190</y>
-      <width>161</width>
+      <x>75</x>
+      <y>100</y>
+      <width>150</width>
       <height>22</height>
      </rect>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
     <property name="placeholderText">
      <string>Enter your name here</string>
@@ -46,9 +49,9 @@
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>320</x>
-      <y>240</y>
-      <width>84</width>
+      <x>100</x>
+      <y>147</y>
+      <width>100</width>
       <height>22</height>
      </rect>
     </property>
@@ -62,7 +65,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
+     <width>300</width>
      <height>22</height>
     </rect>
    </property>
