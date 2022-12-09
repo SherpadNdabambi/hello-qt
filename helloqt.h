@@ -15,6 +15,9 @@ public:
     HelloQt(QWidget *parent = nullptr);
     ~HelloQt();
 
+private slots:
+    void on_pushButton_clicked();
+
 private:
     Ui::HelloQt *ui;
 };

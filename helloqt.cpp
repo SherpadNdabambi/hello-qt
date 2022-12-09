@@ -13,3 +13,11 @@ HelloQt::~HelloQt()
     delete ui;
 }
 
+
+void HelloQt::on_pushButton_clicked()
+{
+    QString name = ui->lineEdit->text();
+    QString message = "Hello, " + name + '!';
+    ui->label->setText(message);
+}
+
